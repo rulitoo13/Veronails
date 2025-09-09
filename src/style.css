@@ -1,0 +1,135 @@
+body {
+  background-color: #f7c6d0; /* rosa pastel claro */
+  margin: 0; 
+}
+h1 { 
+text-align: center;
+  font-family: 'gravitas one', serif;
+  background-color: #b03060; /* rosa oscuro */
+  padding: 20px 0;
+  margin: 2; 
+  font-size: 2rem;
+  }
+.descripcion{
+  text-align: center;
+  font-family: 'prosto one', sans-serif;
+  font-size: 2rem;
+  margin-top: 10px;
+  font-style: italic; 
+}
+.item-servicio {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: 'prosto one', sans-serif; 
+}
+hr {
+  margin: 30px 0; 
+  width: 80%; 
+  margin-left: auto; 
+  margin-right: auto;
+  border-top: 6px solid #b03060; 
+}
+h2 {
+  font-family: 'prosto one', sans-serif; 
+  margin-left: 4px; 
+}
+.galeria { 
+  text-align: center;
+  padding: 40px 20px;
+  background-color: ##f7c6d0;
+}
+.galeria h3{ 
+font-family: 'roboto', serif; 
+  margin-top: -20px; 
+  font-size: 1.3rem; 
+  margin-bottom: 30px; 
+}
+.slider-container {
+ position: relative;
+  width: 90%; 
+  max-width: 900px; 
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 15px;
+  max-height: 300px; 
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slider img {
+  width: calc(100% / 3); 
+  flex-shrink: 0;
+  object-fit: contain;
+  height: auto; 
+  max-height: 300px; 
+  box-sizing: border-box; 
+   margin: 4px;
+  border: 3px solid #b03060;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 0 8px rgba(176, 48, 96, 0.3);
+}
+.slider img:hover {
+  transform: scale(1.03);
+  border-color: #e75480;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #b03060;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.contacto {
+  text-align: center;
+  padding: 30px;
+  font-family: 'roboto', sans-serif; 
+  font-size: 1.3rem; 
+  margin-top: -40px; 
+}
+.boton {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 8px; 
+}
+a {
+  color:  #b03060; /* Rosa oscuro */
+  text-decoration: none; 
+}
+a:hover {
+  color: #e75480; /* Un rosa más clarito */
+}
+.ubicacion {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.2rem; 
+  text-align: center; 
+}
+h5 {
+  font-size: 1.3rem; 
+  margin-top: 4px; 
+}
+footer {
+  background-color: #b03060;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+}
